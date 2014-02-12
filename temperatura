@@ -28,6 +28,6 @@ dicc_resp = json.loads(respuesta.text)
 
 temp =  int(dicc_resp["main"]["temp"]) - 273
 
-print "La temperatura actual de %s es %.2f grados centigrados" % (ciudad,temp) 
+print "La temperatura actual de %s es %i grados centigrados" % (ciudad,temp) 
 
 
