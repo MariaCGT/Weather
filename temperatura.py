@@ -15,9 +15,9 @@ opciones = """
 
 dicc_ciudades = {'1':'Almeria','2':'Cadiz','3':'Cordoba','4':'Granada','5':'Huelva','6':'Jaen','7':'Malaga','8':'Sevilla'}
 
-print opciones
+print dicc_ciudades
 
-print "De que ciudad quieres saber la temperatura actual (indica el numero)"
+print "De qué ciudad quieres saber la temperatura actual (indica el numero)"
 
 num_ciud = raw_input()
 
